@@ -1,0 +1,18 @@
+/* Example Home.css styles */
+#home {
+  background-color: #f8f9fa;
+}
+
+#home h1 {
+  color: #343a40;
+  font-weight: bold;
+}
+
+#home p {
+  color: #6c757d;
+  font-size: 1.2rem;
+}
+
+#home .lead {
+  margin-bottom: 1.5rem;
+}

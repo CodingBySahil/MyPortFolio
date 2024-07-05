@@ -1,0 +1,33 @@
+/* Skills.css */
+
+#skills {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+#skills h2 {
+  color: #007bff; /* Bootstrap primary color */
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin-bottom: 8px;
+}
+
+.skills-list li:before {
+  content: "•"; /* Bullet style */
+  color: #007bff; /* Bootstrap primary color */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+@media (max-width: 768px) {
+  .skills-list li:before {
+    display: none; /* Hide bullet on small screens */
+  }
+}
