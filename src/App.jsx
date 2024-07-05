@@ -9,7 +9,7 @@ import './styles/App.css';
 const App = () => {
   return (
     <div>
-      <h1>hello</h1>
+      <h1>hello from app</h1>
       <Home />
       <About />
       <Projects />
